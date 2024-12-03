@@ -1,0 +1,44 @@
+.diahora {
+    background-color: silver;
+}
+
+.endes {
+    background-color: #a4c2f4;
+}
+
+.sosas {
+    background-color: #d8ead2;
+}
+
+.badat {
+    background-color: #93d8ff;
+}
+
+.digit {
+    background-color: #f4cccc;
+}
+
+.ipe1 {
+    background-color: #dad2e9;
+}
+
+.progr {
+    background-color: #aeea95;
+}
+
+.lmsgi {
+    background-color: #ff8072;
+}
+
+.siinf {
+    background-color: #fed966;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}

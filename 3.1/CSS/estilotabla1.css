@@ -37,6 +37,7 @@
 table {
     text-align: center;
     border-collapse: collapse;
+    border-style: dotted;
 }
 
 td {

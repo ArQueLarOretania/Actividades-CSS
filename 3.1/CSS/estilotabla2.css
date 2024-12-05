@@ -1,0 +1,48 @@
+.endes {
+    background-color: #6298f5;
+}
+
+.sosas {
+    background-color: #bff8ac;
+}
+
+.badat {
+    background-color: #4a91b9;
+}
+
+.digit {
+    background-color: #f78080;
+}
+
+.ipe1 {
+    background-color: #a489d6;
+}
+
+.progr {
+    background-color: #69d13c;
+}
+
+.lmsgi {
+    background-color: #ff4430;
+}
+
+.siinf {
+    background-color: #f3bf23;
+}
+
+.recreo {
+    background-color: aqua;
+}
+
+table {
+    text-align: center;
+    border-collapse: separate;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(135, 11, 151);
+    border-style: dashed;
+}
+
+td {
+    padding: 22px;
+}

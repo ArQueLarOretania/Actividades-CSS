@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+input:required {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+}
+
+input:disabled {
+    background-color: gray;
+}
+input:checked + label{
+    font-weight: bold;
+}
+
+span:hover {
+    color:blue;
+    font-size: 25px;
+}
+.enviar {
+    margin-left: 100px;
+}

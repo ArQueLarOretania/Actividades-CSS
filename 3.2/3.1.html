@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="../CSS/3.2/formulario.css">
+    </head>
+    <body>
+        <h1>Alta de nuevo usuario</h1>
+        <form method="post" enctype="text/plain" action="mailto:aquelat1409@g.educaand.es">
+            <fieldset>
+                <p>Datos personales:</p>
+                <span>Nombre: </span><input type="text" placeholder="Ej. Marta" size="60" required>
+                <br><br>
+                <span>Apellidos:</span> <input type="text" placeholder="Ej. Rodriguez Arriaga" size="60" required>
+                <br><br>
+                <span>Dirección:</span> <input type="text" placeholder="Ej. Avda. Andalucía 104, 7ºA" size="60">
+                <br><br>
+                <span>Código Postal:</span> <input type="text" placeholder="23700" maxlength="5" required> 
+                <span>Población:</span> <input type="text" disabled>
+                <br><br>
+                <span>Fecha de nacimiento:</span> <input type="date">
+            </fieldset>
+            <fieldset>
+                <legend>Datos de usuario</legend>
+                <span>E-mail:</span> <input type="email" placeholder="acarvar302@g.educaand.es" size="63" required>
+                <br><br>
+                <span>Contraseña:</span> <input type="password" minlength="8" required>
+                <span>Número Móvil:</span> <input type="text" maxlength="9">
+                <br><br>
+                <span>Nivel:</span> <input name="nivel" type="radio" value="principiante" checked><label for="principiante">Principiante</label>
+                <input name="nivel" value="avanzado" type="radio"><label for="avanzado">Avanzado</label>
+            </fieldset>
+            <input class="enviar" type="submit" value="Enviar">
+        </form>
+    </body>
+    
+</html>

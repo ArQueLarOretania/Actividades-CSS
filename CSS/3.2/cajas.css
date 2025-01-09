@@ -1,0 +1,26 @@
+.div1, .div2, .div3 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 50px;
+    position: relative
+}
+.div1 {
+    background-color: pink;
+    left: 200px;
+    top: 100px;
+}
+
+.div2 {
+    background-color: lightblue;
+    border-radius: 20%;
+    left: -50px;
+    top: -50px;
+}
+
+.div3 {
+    background-color: lightgreen;
+    border-radius: 40%;
+    left: 450px;
+    top: -300px;
+}

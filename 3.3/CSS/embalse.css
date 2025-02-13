@@ -1,0 +1,46 @@
+h1 {
+    color: purple;
+    text-align: center;
+} 
+
+caption {
+    font-size: 1.5em;
+    color: purple;
+}
+table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+th, td {
+    border: 2px solid purple;
+    text-align: right;
+}
+
+tr th:first-child {
+    text-align: left;
+}
+
+tr th {
+    text-align: center;
+}
+
+th {
+    background-color: violet;
+    color: white;
+}
+
+td:last-child {
+    background-color: red;
+    color: white;
+}
+
+tr:nth-child(7) {
+    background-color: yellow;
+}
+
+tr:hover td {
+    font-size: 2em;
+}

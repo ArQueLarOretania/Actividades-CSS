@@ -1,0 +1,39 @@
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;;
+}
+
+figure img {
+    width: 350px;
+    height: 200px;
+}
+
+figcaption {
+    color: green;
+}
+
+figure:hover {
+    transform: scale(1.2);
+}
+
+figure:nth-child(6) {
+    order: -1;
+}
+
+figure:nth-child(7) {
+    order: 1;
+}

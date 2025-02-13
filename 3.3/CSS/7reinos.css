@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div.inicio {
+    background-color: purple;
+    text-align: center;
+    padding: 20px;
+}
+
+
+div.cookies {
+    background-color: violet;
+    text-align: center;
+    margin: auto;
+    width: 90%; 
+    border: 4px double purple; 
+    padding: 1px; 
+    top: 0; 
+    left: 5%;
+    position: fixed;
+}
+
+article {
+    background-color: aqua;
+    display: flex; 
+    float: left; 
+    flex-direction: column;
+    align-items: left; 
+    margin: 10px; 
+    padding: 10px; 
+    width: 250px; 
+    background-color: aqua;
+    height: 800px;
+}
+
+article.uno {
+    width: 500px;
+}
+
+article.seis {
+    width: 750px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulario.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Alta de nuevo usuario</h1>
+    </header>
+
+    <main>
+
+        <form action="mailto:jcasmor0307@g.educaand.es" method="post" enctype="text/plain"></form>
+
+        <fieldset>
+
+            <label for="entrada">Datos personales:</label>
+            <br>
+            <br>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" class="campo-obligatorio" required placeholder="Ej: Marta">
+            <br>
+            <br>
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" class="campo-obligatorio" required placeholder="Rodríguez Arriaga">
+            <br>
+            <br>
+            <label for="Dirección">Dirección:</label>
+            <input type="text" placeholder="Avda.Andalucía 104, 7º A">
+            <br>
+            <br>
+            <label for="Código Postal">Código Postal:</label>
+            <input type="text" class="campo-obligatorio" placeholder="23700" required>
+            <label for="Población">Población:</label>
+            <input type="text" size="20" disabled>
+            <br>
+            <br>
+            <label for="Nombre">Fecha nacimiento:</label>
+            <input type="date">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Datos de usuario</legend>
+            <br>
+            <br>
+            <label for="E-mail">E-mail:</label>
+            <input type="text" size="40" class="campo-obligatorio" placeholder="acarvar302@g.educaand.es" name="E-mail" id="E-mail">
+            <br>
+            <br>
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password" class="campo-obligatorio" name="Contraseña" size="15" id="Contraseña" maxlength="8" oninput="this.value=this.value.replace(/./g, '*')" required>
+            <label for="Numero Movil">Número Móvil:</label>
+            <input type="tel" size="15" name="Número Móvil" maxlength="9" pattern="[0-9]{9}" id="Número Móvil">
+            <br>
+            <br>
+            <label for="Nivel">Nivel:</label>
+            <input type="radio" name="Nivel" id="Nivel" value=""><label for="Principiante">Principiante</label>
+            <input type="radio" name="Nivel" id="Nivel" value=""><label for="Avanzado">Avanzado</label>
+            
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Enviar" align="center">
+
+    </main>
+
+</body>
+</html>

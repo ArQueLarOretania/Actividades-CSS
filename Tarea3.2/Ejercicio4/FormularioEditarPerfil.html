@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Formulario2.css">
+</head>
+<body>
+    
+    <header>
+
+        <h1>Insertar/Editar Perfil</h1>
+
+    </header>
+
+    <form>
+        
+        <article>
+
+            <fieldset class="article_1">
+                <legend class="legend">Datos Personales</legend>
+                
+                <img src="imagen/fotoperfil.png" alt="imagen_perfil" align="center">
+                <br>
+                <label for="modificar_foto">Añadir/Modificar foto:<input type="submit" value="Seleccionar archivo">Ninguno archivo selec.</label>
+
+                <br>
+                <br>
+          
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+          
+                <label for="foto">Correo electrónico:</label>
+                <input type="text" id="correo" name="correo">
+
+                <label for="fecha_incorporación">Mes y año de incorporación al cuerpo: </label>
+                <input type="month" id="fecha_incorporación" name="fecha_incorporación">
+        
+              </fieldset>
+
+        </article>
+    
+        <article>
+
+            <fieldset class="article_2">
+                <legend class="legend">Datos Curso 2023/2024</legend>
+                <label for="insti">Instituto:</label>
+                <input type="text" id="insti" name="insti" placeholder="IES Oretania">
+          
+                <label for="Población">Población:</label>
+                <input type="text" id="Población" name="Población" placeholder="Linares">
+
+                <label for="provincia">Provincia:</label>
+                <select id="provincia" name="provincia">
+                  <option value="jaen" selected>Jaén</option>
+                  <option value="sevilla">Sevilla</option>
+                  <option value="malaga">Málaga</option>
+                  <option value="granada">Granada</option>
+                  <option value="cadiz">Cádiz</option>
+                  <option value="huelva">Huelva</option>
+                  <option value="cordoba">Córdoba</option>
+                  <option value="almeria">Almería</option>
+                </select>
+          
+                <label for="matriculado">Cursos en los que desempeña labor docente:</label>
+                <br>
+                <br>
+                <input type="checkbox" id="1ºDAM" name="1ºDAM">
+                <label for="1ºDAM">1ºDAM</label>
+                <br>
+                <br>
+                <input type="checkbox" id="2ºDAM" name="2ºDAM">
+                <label for="2ºDAM">2ºDAM</label>
+                <br>
+                <br>
+                <input type="checkbox" id="1ºASIR" name="1ºASIR">
+                <label for="1ºASIR">1ºASIR</label>
+                <br>
+                <br>
+                <input type="checkbox" id="2ºASIR" name="2ºASIR">
+                <label for="2ºASIR">2ºASIR</label>
+                <br>
+                <br>
+                <input type="checkbox" id="1ºDAM" name="1ºDAW">
+                <label for="1ºDAW">1ºDAW</label>
+                <br>
+                <br>
+                <input type="checkbox" id="2ºDAW" name="2ºDAW">
+                <label for="2ºDAW">2ºDAW</label>
+
+              </fieldset>
+
+        </article>
+    
+        <input type="submit" value="Guardar"> <input type="submit" value="Borrar">
+    </form>
+
+</body>
+</html>

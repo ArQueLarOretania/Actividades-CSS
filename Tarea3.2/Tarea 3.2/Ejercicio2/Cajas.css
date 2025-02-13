@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+}
+
+.inner-div {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 0; 
+    position: absolute;
+}
+
+#div1 {
+    background-color: rgb(207, 102, 192);
+    top: 0;
+    left: 180px;
+}
+
+#div2 {
+    background-color: rgb(72, 213, 72);
+    top: 180px;
+    left: -50px;
+    border-radius: 20%;
+}
+
+#div3 {
+    background-color: rgb(231, 248, 44);
+    top: 230px;
+    left: 450px;
+    border-radius: 40%;
+}

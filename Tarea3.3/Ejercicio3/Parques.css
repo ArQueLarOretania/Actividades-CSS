@@ -1,0 +1,38 @@
+header{
+    color: darkgreen;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+}
+
+figure {
+    text-align: right;
+    display: inline-block;
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.almeria {
+    order: 2;
+}
+
+.Córdoba {
+    order: 4;
+}
+
+.

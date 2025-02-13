@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabla-datos {
+    width: 600px;
+    margin: 0 auto;
+    border: 2px solid purple;
+    border-collapse: collapse;
+}
+
+.tabla-datos caption {
+    text-align: center;
+    background-color: white(245, 239, 245);
+    color: rgb(201, 77, 212);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabla-datos td {
+    border: 2px solid purple;
+    padding: 10px;
+    text-align: right;
+}
+
+th {
+    background-color: rgb(238, 87, 238);
+    color: white;
+    text-align: center;
+}
+
+.fila-titulo,
+.columna-titulo {
+    text-align: left;
+}
+
+.tabla-datos td:last-child {
+    background-color: red;
+}
+
+.fila-jaen {
+    background-color: yellow;
+    text-align: left;
+}
+
+.tabla-datos tr:hover td {
+    font-size: 250%;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+.th_1{
+    text-align: left;
+    border: 2px solid purple;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/3.2/formulariogrande.css">
+    <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Insertar/Editar Perfil</h1>
+        <form>
+            <fieldset class="datos">
+                <legend>Datos Personales</legend>
+                
+                <img class="fotoperfil" src="fotoperfil.png" alt="Foto de perfil">
+                <br>
+                <span>Añadir/Modificar foto: </span> <input type="file"> 
+                <br><br>
+                <span>Apellidos: </span> <input type="text" size="50"> 
+                <br><br>
+                <span>Nombre: </span> <input type="text" size="50"> 
+                <br><br>
+                <span>Correo electrónico: </span> <input type="email" size="40"> 
+                <br><br>
+                <span>Mes y año de incorporación al cuerpo: </span> <input type="month"> 
+                <br><br>
+    
+            </fieldset>
+            <fieldset class="curso">
+                <legend>Datos curso 2023/2024</legend>
+                <br>
+                <span>Instituto: </span><input type="text" size="50" placeholder="IES Oretania"> 
+                <br><br>
+                <span>Población: </span><input type="text" placeholder="Linares">
+                <span>Provincia: </span>
+                <select>
+                    <option value="Jaén">Jaén</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Huelva">Huelva</option>
+                    <option value="Cádiz">Cádiz</option>
+                    <option value="Málaga">Málaga</option>
+                    <option value="Almería">Almería</option>
+                </select>
+                <br><br>
+                <span>Cursos en los que se desempeña labor docente: </span> 
+                <br><br>
+                <input type="checkbox" name="1DAM" value="1DAM" id="1DAM"><label for="1DAM"> 1º DAM</label>
+                <br><br>
+                <input type="checkbox" name="2DAM" value="2DAM" id="2DAM"><label for="2DAM">2º DAM</label>
+                <br><br>
+                <input type="checkbox" name="1ASIR" value="1ASIR" id="1ASIR"><label for="1ASIR">1º ASIR</label>
+                <br><br>
+                <input type="checkbox" name="2ASIR" value="2ASIR" id="2ASIR"><label for="2ASIR">2º ASIR</label>
+                <br><br>
+                <input type="checkbox" name="1DAW" value="1DAW" id="1DAW"><label for="1DAW">1º DAW</label>
+                <br><br>
+                <input type="checkbox" name="2DAW" value="2DAW" id="2DAW"><label for="2DAW">2º DAW</label>
+                <br><br>
+            </fieldset>
+            <fieldset class="botones">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+    </body>
+</html>
